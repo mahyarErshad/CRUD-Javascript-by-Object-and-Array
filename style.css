@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Yekan;
+    src: url(./assets/Font/Yekan.woff2);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 62.5%;
+    font-family: Yekan, sans-serif;
+    direction: rtl;
+    background-color: rgb(61 , 81, 180);
+    max-width: 1280px;
+    min-width: 360px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1340px;
+}
+.input{
+    width: 29rem;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    font-size: 1rem;
+}
+.inputHeader{
+    padding-right: 2rem;
+    padding-top: 1rem;
+    height: 4rem;
+    background-color: rgb(247, 247, 247);
+    font-size: 1.5rem;
+}
+.block{
+    display: block;
+}
+.margin-right{
+    margin-right: 1rem;
+}
+.margin-btm{
+    margin-bottom: 1.5rem;
+}
+.field{
+    width: 90%;
+    height: 2.5rem;
+    border: solid gainsboro 2px;
+    border-radius: 5px;
+    padding-right: 0.5rem;
+}
+.btn{
+    background-color: rgb(61 , 81, 180);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    height: 2.5rem;
+    font-size: larger;
+    box-shadow: 2px 2px rgb(170, 170, 170);
+}
+.edit-btn{
+    background-color: rgb(61 , 81, 180);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    height: 2.5rem;
+    font-size: larger;
+    box-shadow: 2px 2px rgb(170 170 170);
+    display: none;
+    cursor: pointer;
+}
+.field:focus{
+    background-color: rgba(220, 220, 220, 0.253);
+}
+.field:hover{
+    background-color: rgba(220, 220, 220, 0.253);
+}
+.btn:hover{
+    background-color: rgba(61, 81, 180, 0.527);
+    cursor: pointer;
+}
+.output{
+    background-color: #fff;
+    font-size: 1rem;
+    flex-direction: row;
+    height: max-content;
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    display: flex;
+    padding: 1rem;
+}
+.table{
+    border-spacing: 3.5rem 0.5rem;
+    border: solid 2px gainsboro;
+}
+.del{
+    background: #fff;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
+.edit{
+    background: #fff;
+    border: none;
+    color: rgb(61 , 81, 180);
+    cursor: pointer;
+}
